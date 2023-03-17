@@ -1,0 +1,30 @@
+#container {
+  margin: 50px auto;
+  width: 300px;
+}
+
+#stopwatch {
+  font-size: 64px;
+  text-align: center;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#start-button {
+  color: green;
+}
+
+#stop-button {
+  color: red;
+}
