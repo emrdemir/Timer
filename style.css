@@ -1,8 +1,12 @@
+body {
+  background-color: #f2f2f2;
+}
 #container {
   margin: 50px auto;
   width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
 #stopwatch {
   font-size: 64px;
   text-align: center;
@@ -19,12 +23,23 @@ button {
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  box-shadow: 0 4px #357a38;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #357a38;
+  box-shadow: 0 8px #357a38;
+  transform: translateY(-2px);
 }
 
 #start-button {
-  color: green;
+  background-color: #4CAF50;
 }
 
 #stop-button {
-  color: red;
+  background-color: #f44336;
 }
