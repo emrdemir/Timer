@@ -1,1 +1,1 @@
-javascript-timer
+Javascript-Timer
